@@ -1,0 +1,46 @@
+C Programming Language
+Discrete Math
+Data Structure and Alogirithm Analysis
+Computer Organization and Design
+Principle of Microcomputer
+Application of Microcontroller
+Fundamentals of Compiling
+Fundamentals of Operating Systems
+Fundamentals of Database
+Calculus
+Linear Algebra
+Numerical Analysis
+Normal Physics
+Computer Concepts
+Computer Architecture
+Computer Networking
+C++ Programming Language
+VB.Net
+Delphi
+College English(1)
+College English(2)
+College English(3)
+College English(4)
+College English(5)
+College English(6)
+College English(7)
+College English(8)
+1 2
+2 3
+1 4
+3 5
+3 6
+3 7
+3 8
+3 9
+4 15
+3 16
+10 12
+10 13
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
