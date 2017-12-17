@@ -8,10 +8,10 @@ Graph::Graph()
 	cout << "Input text name: " << endl;
 	cin >> input_name;
 	in.open(input_name, fstream::in);
-	string output_name;
+	/*string output_name;
 	cout << "Output text name: " << endl;
 	cin >> output_name;
-	out.open(output_name, fstream::out);
+	out.open(output_name, fstream::out);*/
 	init_vertices();
 	init_edges();
 }
@@ -52,5 +52,37 @@ void Graph::addEdge(int v, int w)
 
 void Graph::topological_sort()
 {
-
+	Bulletin b;;
+	queue<Node*> q;
+	unordered_map<Node*, int> mp;
+	for (auto it = cont.begin() + 1; it != cont.end(); ++it) {
+		Node* temp = *it;
+		mp[temp] = 0;
+	} // initialize
+	for (auto it = cont.begin() + 1; it != cont.end(); ++it) {
+		Node* temp = *it;
+		for (auto jt = temp->neighbors.begin(); jt != temp->neighbors.end(); ++jt) {
+			Node* inner = *jt;
+			++mp[inner];
+		}
+	}
+	for (auto it = cont.begin() + 1; it != cont.end(); ++it) {
+		Node* temp = *it;
+		if (mp[temp] == 0) {
+			q.push(temp);
+		}
+	}
+	while (!q.empty()) {
+		Node* temp = q.front();
+		q.pop();
+		b.courses.push_back(temp);
+		for (auto jt = temp->neighbors.begin(); jt != temp->neighbors.end(); ++jt) {
+			Node* inner = *jt;
+			--mp[inner];
+			if (mp[inner] == 0) {
+				q.push(inner);
+			}
+		}
+	}
+	b.arrange();
 }
