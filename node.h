@@ -17,9 +17,9 @@ class Node {
 	friend class Graph;
 	friend class Bulletin;
 	private:
-		Node (string x) : name(x), neighbors(NULL) {}
+		Node (string x, int n) : name(x), semester(n), neighbors(NULL) {}
 		string name;
-		//int label;
+		int semester;
 		vector<Node*> neighbors; // adjacency list
 };
 #endif

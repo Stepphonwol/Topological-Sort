@@ -1,49 +1,28 @@
-C Programming Language
-Discrete Math
-Data Structure and Alogirithm Analysis
-Computer Organization and Design
-Principle of Microcomputer
-Application of Microcontroller
-Fundamentals of Compiling
-Fundamentals of Operating Systems
-Fundamentals of Database
-Calculus
-Linear Algebra
-Numerical Analysis
-Normal Physics
-Computer Concepts
-Computer Architecture
-Computer Networking
-C++ Programming Language
-VB.Net
-Delphi
-College English(1)
-College English(2)
-College English(3)
-College English(4)
-College English(5)
-College English(6)
-College English(7)
-College English(8)
-1 2
-24 25
-2 3
-1 4
-25 26
-26 27
-1 17
-1 18
-21 22
-23 24
-1 19
-3 5
-3 6
-3 7
-22 23
-3 8
-3 9
-4 15
-3 16
-10 12
-10 13
-20 21
+6 6 5 5 2 2 1 1
+C程序设计语言 0 0
+离散数学 0 1
+数据结构与算法分析 0 2
+计算机组成与设计 0 1
+微机原理 0 3
+单片机原理 0 3
+编译原理 0 3
+操作系统原理 0 3
+数据库原理 0 3
+高等数学 0 0
+线性代数 0 0
+数值分析 0 10
+大学物理 0 10
+计算机文化 0 0
+计算机体系结构 0 4
+计算机网络 0 3
+C++程序设计语言 0 1
+VB.Net 0 1
+Delphi 0 1
+大学英语（1） 1 0
+大学英语（2） 2 20
+大学英语（3） 3 21
+大学英语（4） 4 22
+大学英语（5） 5 23
+大学英语（6） 6 24
+大学英语（7） 7 25
+大学英语（8） 8 26

@@ -1,13 +1,12 @@
 #include "Bulletin.h"
 
-Bulletin::Bulletin()
-{
-	;
-}
-
 void Bulletin::arrange()
 {
-	cout << "Semester 1 : " << endl;
+	for (int i = 0; i < courses.size(); ++i) {
+		cout << courses[i]->name << "|";
+	}
+	cout << endl;
+	/*cout << "Semester 1 : " << endl;
 	for (int i = 0; i < 4; ++i) {
 		cout << courses[i]->name << "|";
 	}
@@ -34,5 +33,5 @@ void Bulletin::arrange()
 	cout << endl << "Semester 7: " << endl;
 	for (int i = 25; i < 27; ++i) {
 		cout << courses[i]->name << "|";
-	}
+	}*/
 }

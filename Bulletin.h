@@ -6,7 +6,7 @@ class Graph;
 class Bulletin {
 	friend class Graph;
 	private:
-		Bulletin();
+		Bulletin() {}
 		void arrange();
 		vector<Node*> courses;
 };
